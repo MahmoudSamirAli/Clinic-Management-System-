@@ -1,3 +1,11 @@
+/*********************************************/
+/* Auther  : Mahmoud Samir Ali 		     */
+/* Project : Clinic Managment System         */
+/* Vesion  : v1.0                            */
+/*********************************************/
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,7 +28,7 @@ char a1[][8] = {"2:30pm" , "3:00pm" , "3:30pm" , "4:00pm" , "4:30pm"} ; // eveyd
 char a2[5] = {1,1,1,1,1} ; // an array helped me display, arrange and rearrange slots.
 char AvilableSlots = 5 ; //  an variable helped me display, arrange and rearrange slots.
 
-
+/*Macros to avoid the magic numbers*/
 #define Admin  1
 #define User  2
 #define AllSlots  5 
